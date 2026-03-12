@@ -30,3 +30,5 @@ MANIFEST
 .ipynb_checkpoints
 
 # Data
+*.nc
+*.csv
