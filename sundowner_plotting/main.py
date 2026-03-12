@@ -15,4 +15,6 @@ import numpy as np
             # pros: more even cooler graphs
             # cons: a LOT of data
     # second: import - done!
-    # third: 
+    # third: refactor - done!
+    # four: identify path 
+        # test grabbing data - not done
