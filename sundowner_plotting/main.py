@@ -17,4 +17,5 @@ import numpy as np
     # second: import - done!
     # third: refactor - done!
     # four: identify path 
-        # test grabbing data - not done
+        # test grabbing data - pathway found
+    # fifth: test loading text files 
