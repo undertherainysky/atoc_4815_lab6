@@ -1,6 +1,14 @@
 import pandas as pd
 import numpy as np
 
+from sundowner_plotting import read_file
+
+
+
+
+
+
+
 
 # plan:
     # first: consider what kinds of data we want
@@ -16,6 +24,6 @@ import numpy as np
             # cons: a LOT of data
     # second: import - done!
     # third: refactor - done!
-    # four: identify path 
-        # test grabbing data - pathway found
-    # fifth: test loading text files 
+    # four: identify path - done!
+        # test grabbing data - pathway found!
+    # fifth: test loading text files - done!
