@@ -1,11 +1,21 @@
-import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
 
 from sundowner_plotting import read_file
 
 
-
-
+singleDay_df = read_file("wxobs20250213.txt")
+singleDay_df.plot(y= ['Hi_Temp', 'Low_Temp', 'Temp_Out'],
+    figsize=(9, 4),
+    title='February 13th, 2025 Temperature Time Series',
+    ylabel='Temperature (°C)',
+    grid=True,
+    alpha=0.7
+)
+plt.savefig("tempplot02132025.png", dpi=200, bbox_inches = 'tight')
+plt.tight_layout()
+plt.show()
 
 
 
