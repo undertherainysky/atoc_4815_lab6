@@ -44,6 +44,7 @@ plt.xticks(rotation=45)
 plt.xlabel('Day of the Month')
 plt.ylabel('Temperature (°F)')
 plt.grid(True,alpha=0.3)
+plt.legend(labels=['Hi_Temp', 'Low_Temp', 'Temp_Out', 'Heat_Index', 'Wind_Chill'],bbox_to_anchor=(1.05, 1))
 plt.savefig("February-2025-Daily-Temperature-Plot.png",bbox_inches='tight',dpi=250)
 plt.show()
 
