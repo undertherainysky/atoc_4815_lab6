@@ -6,13 +6,15 @@ from sundowner_plotting import read_file
 
 
 singleDay_df = read_file("wxobs20250213.txt")
-singleDay_df.plot(y= ['Hi_Temp', 'Low_Temp', 'Temp_Out', 'Heat_Index', 'Wind_Chill'],
+singleDay_df.plot(y= ['Hi_Temp', 'Low_Temp', 'Heat_Index', 'Wind_Chill'],
     figsize=(9, 4),
     title='February 13th, 2025 Temperature Time Series',
     ylabel='Temperature (°F)',
+    xlabel = 'February 13, 2025 (UTC)',
     grid=True,
     alpha=0.7
 )
+plt.legend(labels=['High Temp', 'Low Temp', 'Heat Index', 'Wind Chill'])
 plt.savefig("tempplot02132025.png", dpi=200, bbox_inches = 'tight')
 plt.tight_layout()
 plt.show()
